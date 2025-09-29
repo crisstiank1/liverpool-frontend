@@ -1,0 +1,47 @@
+.player-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+}
+
+.player-number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.player-photo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.player-info h3 {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+.position {
+  font-weight: 600;
+  color: #555;
+}
+
+.player-details {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #777;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+

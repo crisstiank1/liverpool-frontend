@@ -1,0 +1,38 @@
+.App-header {
+  background: linear-gradient(135deg, #d32f2f, #a30e0e);
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.club-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.club-logo {
+  width: 80px;
+  height: auto;
+}
+
+.club-details h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.motto {
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.club-stats {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+
+

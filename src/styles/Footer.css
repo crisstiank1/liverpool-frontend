@@ -1,0 +1,13 @@
+.App-footer {
+  background: #222;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+.App-footer p {
+  opacity: 0.8;
+}
+
